@@ -1,0 +1,145 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+.our
+{
+    text-decoration-line: underline;
+    text-align: center;
+    background-image: linear-gradient(to right, red,green,yellow);
+}
+.Home
+{
+    display: flex;
+    justify-content: center;
+}
+.home
+{
+    height: 55px;
+    width: 675px;
+    background-color: #a5d3e4;
+    border: 3px solid red;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+}
+.Lorem
+{
+    /* height: 150px; */
+    background-color: #71f7cf;
+    border: 2px solid red;
+    border-radius: 10px;
+    /* overflow: scroll; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+.Lorem4
+{
+    height: 50px;
+    width: 380px;
+    background-color: #71f7cf;
+    border-radius: 5px;
+    border: 2px solid green;
+    padding: 5px;
+   background-color: #63fbfd;
+}
+.JEE
+{
+text-decoration-line: underline;
+text-decoration-color: red;
+text-align: center;
+border: 1px solid #9e4c4f;
+background-image: linear-gradient(to right, red,yellow,red);
+}
+.got_cont
+{
+    height: 250px;
+    background-image: radial-gradient(blue 20%, #53cd6e);
+    /* background-image: linear-gradient(to right, red,yellow,red); */
+    border: 2px solid green;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 50px;
+}
+.got
+{
+    height: 100px;
+    width: 200px;
+    border: 2px solid red;
+    border-radius: 15px;
+    background-color: yellow;
+    text-align: center;
+    text-decoration-line: underline;
+    text-decoration-color: #9e4c4f;
+    color: #9e4c4f;
+}
+
+/* grid */
+
+.grid-container
+{
+    border: 1px solid #828285;
+    display: grid;
+    grid-template-columns: repeat(4,auto);
+    grid-template-rows: repeat(4,auto);
+    gap: 5px;
+}
+.grid-item
+{
+    display: flex;
+    justify-content: center;
+    border: 1px solid blue;
+    
+}
+.item1
+{
+    grid-row: 1/0;
+    grid-column: 1/5;
+    color: white;
+    background-color:  #e83948;
+}
+.item5
+{
+    grid-area: 2/4 / 5/5;
+    color: white;
+    background-color: #2a2d38;
+    text-decoration-line: underline;
+    list-style-position: inside;
+
+}
+.item6
+{
+    grid-area: 3/1 / 5/4;
+    background-color: #f29937;
+    color: white;
+}
+.item7
+{
+    grid-area: 5/1 / 5/5;
+    background-color: #51ccce;
+    text-align: center;
+}
+
+.item2
+{
+    color: white;
+    background-color: #58d16a;
+    /* align-items: center; */
+    text-align: center;
+}
+.item3
+{
+    background-color:#2584f7;
+    color: white;
+}
+.item4
+{
+    background-color: #4948ea;
+    color: white;
+}
